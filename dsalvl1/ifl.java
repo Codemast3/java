@@ -10,7 +10,7 @@ public class ifl{
     }else if (marks>80){
 
         System.out.println("good");
-    }else if (marks>79){
+    }else if (marks>77){
 
         System.out.println("fair");
     }else if (marks>60){
