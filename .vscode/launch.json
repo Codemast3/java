@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch anybasesub",
+            "request": "launch",
+            "mainClass": "anybasesub",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch addmatrx",
+            "request": "launch",
+            "mainClass": "addmatrx",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch anybaseaddition",
+            "request": "launch",
+            "mainClass": "anybaseaddition",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch anybasetoanybase",
+            "request": "launch",
+            "mainClass": "anybasetoanybase",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch anybasetodec",
+            "request": "launch",
+            "mainClass": "anybasetodec",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch decimaltoanybase",
+            "request": "launch",
+            "mainClass": "decimaltoanybase",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch digitfreq",
+            "request": "launch",
+            "mainClass": "digitfreq",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch fact",
+            "request": "launch",
+            "mainClass": "fact",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch forloop",
+            "request": "launch",
+            "mainClass": "forloop",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ifl",
+            "request": "launch",
+            "mainClass": "ifl",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch scn",
+            "request": "launch",
+            "mainClass": "scn",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch transposemtrx",
+            "request": "launch",
+            "mainClass": "transposemtrx",
+            "projectName": "java_3e0290da"
+        }
+    ]
+}
