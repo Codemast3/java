@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class anybaseaddition {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int b = scn.nextInt();
-        int n1 = scn.nextInt();
-        int n2 = scn.nextInt();
-        int anb = getvalueofanybase(b,n1,n2);
+        int b = scn.nextInt();//given base 
+        int n1 = scn.nextInt();//fisrt number 
+        int n2 = scn.nextInt();// second number 
+        int anb = getvalueofanybase(b,n1,n2);//desired base value 
         System.out.println(anb);
     }
     public static int getvalueofanybase(int b,int n1,int n2){
