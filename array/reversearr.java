@@ -19,7 +19,7 @@ public class reversearr {
         int start = 0;
         int end = n-1;
 
-        while(start<end){
+        while(start<end){// logic for reversal of arrays 
             temp = arr[start];
             arr[start]= arr[end];
             arr[end]=temp;
@@ -32,7 +32,8 @@ public class reversearr {
         //printing values
         System.out.println("reverse of array will be :");
         for(int j = 0; j<n;j++){
-            System.out.println(arr[j]);
+            System.out.println(arr[j]);// printing command 
+
         }
 
 
