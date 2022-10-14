@@ -4,11 +4,12 @@ abstract class animal{
         System.out.println("zzz");
     }
 }
-class lion extends animal{
-    public void animalsound(){
-        System.out.println("roar");
+class lion {
+    public static void animalsound()(String[] args) {
+        
+    }   System.out.println("roar");
     }
-}
+
 
 
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch absdtract",
+            "request": "launch",
+            "mainClass": "absdtract",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
             "name": "Launch anybasesub",
             "request": "launch",
             "mainClass": "anybasesub",
