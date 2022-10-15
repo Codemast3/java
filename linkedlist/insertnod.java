@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class insertnod {
 
     public static Node<Integer> takeinput() {
-        Node<Integer> head = null;
+        Node<Integer> head = null, tail =null;
         Scanner scn = new Scanner(System.in);
-        int data = scn.nextInt();
+        int data = scn.nextInt();  
+        
 
 
         while(data != -1){
             Node<Integer> newNode = new Node<Integer>(data);
             if(head == null){
                 head = newNode;
+                tail= newNode; // tail = tail.next
 
             }else{
                Node<Integer> temp = head;
@@ -22,7 +24,7 @@ public class insertnod {
 
             }
 
-            data =scn.nextInt();
+            data = scn.nextInt();
         }
         return head;
 
