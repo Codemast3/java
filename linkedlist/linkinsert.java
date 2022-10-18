@@ -40,13 +40,12 @@ public class linkinsert {
 
         
 
-        public static void insert(Node<Integer> head, int data,  int pos ) {
+        public static Node<Integer> insert(Node<Integer> head, int data,  int pos ) {
         Node<Integer> newnode = new Node<Integer>(data);
         if(pos == 0){
             newnode.next = head;
-            head = newnode;
-            return;
-            
+            return newnode;
+
 
         }
         int i = 0;
@@ -57,12 +56,13 @@ public class linkinsert {
         }
         newnode.next = temp.next;
         temp.next = newnode;
+        return head;
 
         }
     
         public static void main(String[] args) {
             Node<Integer> head = takeinput();
-            insert(head,80,3);
+           head = insert(head,80,0);
             print(head);
         }
     }
