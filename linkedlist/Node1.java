@@ -1,5 +1,7 @@
 import javax.annotation.processing.SupportedOptions;
 
+import concept.Node;
+
 public class Node1{
     
    public static void print(Node<Integer> head){

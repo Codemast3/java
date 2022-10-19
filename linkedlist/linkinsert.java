@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import concept.Node;
 public class linkinsert {
     public static Node<Integer> takeinput(){
          
