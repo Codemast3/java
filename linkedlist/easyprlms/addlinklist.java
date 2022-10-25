@@ -1,7 +1,4 @@
-package easyprlms;
-import linlkedist.concept.insertnod;
 
-import linkedlist.concept.node;
 
 
 public class addlinklist {
