@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch structobj",
+            "request": "launch",
+            "mainClass": "oops.structobj",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
             "name": "Launch Node1",
             "request": "launch",
             "mainClass": "Node1",

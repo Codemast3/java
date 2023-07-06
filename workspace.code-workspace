@@ -14,6 +14,18 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "java2"
+		"liveServer.settings.multiRootWorkspaceName": "java2",
+		"debug.terminal.clearBeforeReusing": false,
+		"java.codeGeneration.hashCodeEquals.useInstanceof": true,
+		"java.implementationsCodeLens.enabled": true,
+		"java.import.generatesMetadataFilesAtProjectRoot": true,
+		"java.referencesCodeLens.enabled": true,
+		"java.symbols.includeSourceMethodDeclarations": true,
+		"java.debug.settings.showStaticVariables": true,
+		"java.debug.settings.stepping.skipConstructors": true,
+		"java.debug.settings.stepping.skipStaticInitializers": true,
+		"java.debug.settings.stepping.skipSynthetics": true,
+		"java.dependency.showMembers": true,
+		"debug.javascript.breakOnConditionalError": true
 	}
 }
